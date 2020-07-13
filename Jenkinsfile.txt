@@ -29,7 +29,7 @@ pipeline {
 		
 		stage("Email Build Status"){
 			steps{
-mail body: '${env.JOB_NAME}-Build#${env.BUILD_NUMBER}-${currentBuild.currentResult}\n\nCheck Console output at ${env.BUILD_URL}to view the results', subject: '${env.JOB_NAME}-Build#${env.BUILD_NUMBER}-${currentBuild.currentResult}!!', to: 'er.jayasree@yahoo.com'  
+				mail body: "${env.JOB_NAME} - Build#${env.BUILD_NUMBER} - ${currentBuild.currentResult}\n\nCheck Console output at ${env.BUILD_URL}to view the results', subject: '${env.JOB_NAME} - Build#${env.BUILD_NUMBER} - ${currentBuild.currentResult}!!", to: 'er.jayasree@yahoo.com'  
 		
 	}
 }
