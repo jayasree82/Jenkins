@@ -12,7 +12,7 @@ pipeline {
 					},
 					c: {
 					bat "mvn package"
-					},
+					}
 				}
 			}
 		}
