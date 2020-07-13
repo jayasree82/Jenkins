@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.jaya.traning.jenkins.JenkinsCalcTest" time="0.007" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.jaya.traning.jenkins.JenkinsCalcTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11+28"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sony\.jenkins\workspace\Jenkins"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sony\.jenkins\workspace\DeclarativePipeline"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\sony\.jenkins\workspace\Jenkins"/>
+    <property name="user.dir" value="C:\Users\sony\.jenkins\workspace\DeclarativePipeline"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="11+28"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -53,7 +53,6 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="11"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="maven.home" value="E:\Jayasree\Apache Maven\apache-maven-3.6.3\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2018-09-25"/>
@@ -61,10 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.jaya.traning.jenkins.JenkinsCalcTest" name="addTest" time="0.006"/>
-  <testcase classname="com.jaya.traning.jenkins.JenkinsCalcTest" name="subtractTest" time="0.001"/>
+  <testcase classname="com.jaya.traning.jenkins.JenkinsCalcTest" name="addTest" time="0.002"/>
+  <testcase classname="com.jaya.traning.jenkins.JenkinsCalcTest" name="subtractTest" time="0"/>
 </testsuite>
